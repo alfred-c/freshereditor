@@ -1,13 +1,26 @@
-﻿.fresheditor-toolbar 
+﻿.fresheditor-toolbar
 {
-	font-family:"Georgia", Serif;
-	line-height:1.67em;
-	font-size:1em;
+	font-family: "Georgia" , Serif;
 }
-.toolbar-btn {
-	height: 20px;
+.fresheditor-toolbar .btn
+{
+	line-height: normal;
 }
-.colorpanel {
+.fresheditor-toolbar .btn .caret
+{
+	margin-top: 6px;
+}
+.fresheditor-toolbar .toolbar-btn
+{
+	/*padding: 0px;*/
+}
+.fresheditor-toolbar .btn-group .dropdown-toggle
+{
+	/*padding: 0px;*/
+}
+.fresheditor-toolbar .colorpanel
+{
 	background-color: #333;
 }
-
+*[contenteditable="true"]{	border: 1px solid #ddd;}
+*[contenteditable="true"]:hover,*[contenteditable="true"]:focus{	border: 1px solid #999;}
